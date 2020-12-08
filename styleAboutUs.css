@@ -1,0 +1,40 @@
+@font-face {
+
+font-family: Pompadur; /* Имя шрифта */
+
+src: url(font.ttf); /* Путь к файлу со шрифтом */
+
+}
+
+.displayUs p {
+	font-family: Pompadur;
+	font-size: 30px;
+	margin-top:50px;
+	padding-left:5px;
+  	padding-top:90px;  
+  	border-top:1px solid #000000;
+}
+
+@media (min-width: 700px) and (max-width: 1200px) 
+{
+	.img-PK {
+  		width: 50%;
+	}
+}
+
+@media (max-width: 700px) 
+{
+	.img-PK {		
+  		width: 100%;
+	}
+}
+
+.img-PK {
+	padding-right:2%;
+	padding-left:2%;  
+	padding-top:70px;				
+	padding-bottom:1%;  
+ 	border-top:1px solid #000000;
+	float: left;
+  	width: 30%;
+}
